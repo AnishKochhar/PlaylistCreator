@@ -1,5 +1,5 @@
-from dotenv import load_dotenv
 from datetime import date
+from dotenv import load_dotenv
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 

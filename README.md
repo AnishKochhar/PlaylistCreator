@@ -2,13 +2,15 @@ A terminal application that creates playlists based on a. listening history, b. 
 
 Uses ChatGPT to give song recommendations
 
-## Usage Instructions
-### Dependencies
-- openai: for interacting with the OpenAI api
-- spotipy: for uploading the playlist to Spotify
-- yt-dlp: for downloading songs from YouTube
+## Examples
 
-`python3 main.py <arguments>`
+#### Example screenshots to be added
+
+## Usage Instructions
+
+Activate the virtual environment by running `source .venv/bin/activate`
+
+`python3 scripts/main.py <arguments>`
 
 ### Arguments:
 
@@ -23,6 +25,10 @@ Uses ChatGPT to give song recommendations
 |*-t \<n>* | *--timeframe=\<n>* | Picks 5 songs from the *n*'th month of listening history |
 |*-a \<name>* | *--artist=\<name>* | Find songs from artists similar to *name* |
 
+### Dependencies
+- openai: for interacting with the OpenAI api
+- spotipy: for uploading the playlist to Spotify
+- yt-dlp: for downloading songs from YouTube
 ## Setup
 You must setup the following environment variables:
 1. OPENAI_API_KEY: https://platform.openai.com/api-keys

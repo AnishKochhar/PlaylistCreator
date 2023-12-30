@@ -1,5 +1,5 @@
 import sys, argparse
-import download, uploader as Uploader, generator as Generator
+import download as Downloader, uploader as Uploader, generator as Generator
 
 def parse():
     parser = argparse.ArgumentParser(prog="Playlist Composer")
@@ -22,7 +22,9 @@ def upload(playlist):
         uploader.upload(playlist)
     user_input = input("Would you like to download the playlist locally? Press enter to accept ")
     if user_input == "":
-        print("TODO: downloading")
+        downloader = Downloader.Download.instance()
+        for songname, artist in playlist:
+            downloader.download(songname, artist)
 
 if __name__ == "__main__":
     args = parse()

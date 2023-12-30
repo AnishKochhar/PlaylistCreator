@@ -59,9 +59,9 @@ class Generator:
     
     def getGPTRecommendations(self):
         prompter = Prompter(self.playlist)
-        self.playlist["genres"] = prompter.ask_chatgpt("genres", self.playlist["genres"])
-        self.playlist["artist"] = prompter.ask_chatgpt("artist", self.playlist["artist"])
-        self.playlist["world"] = prompter.ask_chatgpt("world", self.playlist["world"])
+        if "genres" in self.playlist: self.playlist["genres"] = prompter.ask_chatgpt("genres", self.playlist["genres"])
+        if "artist" in self.playlist: self.playlist["artist"] = prompter.ask_chatgpt("artist", self.playlist["artist"])
+        if "world" in self.playlist: self.playlist["world"] = prompter.ask_chatgpt("world", self.playlist["world"])
 
     def getFullPlaylist(self):
         playlist = []

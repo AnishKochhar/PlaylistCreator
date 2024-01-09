@@ -8,7 +8,9 @@ Uses OpenAI's ChatGPT chatbot to give song recommendations based on music taste
 
 #### Example 1
 
-Let's create a  a playlist using 3 seed genres: `-g 3`;  including 5 songs I listened to in October: `-t 10`;  picking songs from artists similar to *King Krule*: `--artist="King Krule"`; and 5 random songs from the year 1999: `-y 1999`. The program should then save the playlist to the file *sample_playlist.txt* `-o "playlists/sample_playlist.txt` 
+##### Note: As explained in the Usage section, you first receive a *seed* of your playlist from which the final playlist is built. You may re-seed as many times are you like.
+
+Let's create a  a playlist using 3 seed genres: `-g 3`;  including 5 songs I listened to in October: `-t 10`;  picking songs from artists similar to *King Krule*: `--artist="King Krule"`; and 5 random songs from the year 1999: `-y 1999`. The program should then save the playlist to the file *sample_playlist.txt* `-o "playlists/sample_playlist.txt"` 
 
 Prompt the program with 
 ```
@@ -40,9 +42,9 @@ Here I can add arbitrary songs (e.g. *One More Time by Daft Punk*), and remove s
 This playlist has now been uploaded to your Spotify page with the playlist name of today's current date
 <img src="demo/Demo%202%20-%20Spotify.png" alt="Interactive prompt" >
 
-As listed below you can also tell the program: to be *verbose*, i.e. show raw results from Spotify and OpenAI apis
+You can also tell the program: to be *verbose*, i.e. show raw results from Spotify and OpenAI APIs. Also, you can *limit* the number of songs in the final playlist.
 
-And to *limit* the number of songs in the final playlist.
+Depending on your instructions when running, you can download the entire playlist locally as well. You can change the storage folder (e.g. to your local machines Desktop) inside `download.py`
 
 ## Installation
 

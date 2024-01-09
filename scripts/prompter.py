@@ -4,9 +4,11 @@ from openai import OpenAI
 
 class Prompter():
 
-    def __init__(self, playlist):
+    def __init__(self, mood, verbose):
         load_dotenv()
         self.bot = OpenAI() # defaults to using os environ variables OPENAI_API_KEY
+        self.mood = mood
+        self.verbose = verbose
 
     """ Converts from 'number. [songname] - [artist]' to (songname, artist) """
     def getSongArtist(self, query):
@@ -20,13 +22,17 @@ class Prompter():
     def systemPrompt(self, prompt_type, prompt):
         return_value = ""
         if prompt_type == "genres":
-            return_value = "Please recommend 5 songs in each of the following niche genres: "
+            return_value = "Please recommend 5 songs in each of the following genres: "
             for genre in prompt:
                 return_value += "{}, ".format(genre[0])
         if prompt_type == "artist":
             return_value = "Please recommend 5 songs from artists very similar to {0}".format(prompt)
         if prompt_type == "world":
             return_value = "Please recommend 5 songs from {0} in the {1}".format(prompt[0], prompt[1])
+        if prompt_type == "year":
+            return_value = "Please recommend 5 songs from the year {}".format(prompt)
+        if self.mood != None:
+            return_value += ", in the mood {}.".format(self.mood)
         return return_value
     
 
@@ -35,9 +41,13 @@ class Prompter():
         prompt_type=world -> prompt=[country, decade]
         prompt_type=artist -> prompt=artist_name
         prompt_type=genres -> prompt=[(name, description)]
+        prompt_type=year -> prompt=year
         """
         print("Asking ChatGPT...")
         system_prompt = self.systemPrompt(prompt_type, prompt)
+        if self.verbose:
+            print("Prompt: ", system_prompt)
+
         completion = self.bot.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
@@ -46,6 +56,7 @@ class Prompter():
                 {"role": "user", "content": system_prompt }
             ]
         )
+        
         response = []
         for choice in completion.choices:
             message = choice.message.content
@@ -54,5 +65,6 @@ class Prompter():
                     song = self.getSongArtist(q)
                     if (song):
                         response.append(song)
-            print("Response: ", response)
+            if self.verbose:
+                print("Raw response: ", response)
         return response

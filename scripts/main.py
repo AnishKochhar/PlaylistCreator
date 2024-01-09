@@ -7,6 +7,13 @@ def parse():
     parser.add_argument("-t", "--timeframe", type=int, choices=range(1, 13))
     parser.add_argument("-w", "--world", action="store_true")
     parser.add_argument("-a", "--artist")
+    parser.add_argument("-v", "--verbose", action="store_true")
+    parser.add_argument("-y", "--year", type=int, choices=range(1800, 2024), 
+                        help="Specify a particular year song selection, ensuring songs from that specific year are included")
+    parser.add_argument("-l", "--limit", type=int, default=30)
+    parser.add_argument("-m", "--mood", type=str)
+    parser.add_argument("-o", "--output", type=str)
+    parser.add_argument("-i", "--interactive", action="store_true")
     args = parser.parse_args()
     return args
 

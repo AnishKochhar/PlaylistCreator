@@ -113,7 +113,7 @@ class Generator:
         self.playlist["mood"] = self.args.mood
     
     def getGPTRecommendations(self):
-        mood = None if not self.playlist["mood"] else self.playlist["mood"]
+        mood = self.playlist["mood"] if self.args.mood else None
         verbose = True if self.args.verbose else False
 
         prompter = Prompter(mood, verbose)
@@ -124,8 +124,11 @@ class Generator:
 
     def shuffledPlaylist(self):
         if "playlist" in self.playlist:
-            return random.shuffle(self.playlist["playlist"])
-        return None
+            playlist = self.playlist["playlist"]
+            random.shuffle(playlist)
+            return playlist
+        else:
+            return None
     
     # Sets a playlist as list of <songname - artist> (into self.playlist["playlist"])
     # This is useful if interactive mode is on
@@ -168,4 +171,6 @@ class Generator:
         self.playlist["artist"] = [("Out Getting Ribs", "King Krule"), ("Toy", "Young Fathers")]
         self.playlist["timeframe"] = [("Hands Away", "Interpol"), ("Something For Your M.I.N.D.", "Superorganism")]
 
-        return self.getFullPlaylist()
+        self.setPlaylist()
+        
+        return self.shuffledPlaylist()

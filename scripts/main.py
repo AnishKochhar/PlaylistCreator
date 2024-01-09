@@ -22,12 +22,12 @@ def generate(args):
     playlist = generator.generate()
     return playlist
 
-def upload(playlist):
-    user_input = input("Would you like to upload this playlist to Spotify? Press enter to accept ")
+def upload(args, playlist):
+    user_input = input("Would you like to upload this playlist to Spotify? Press enter to accept: ")
     if user_input == "":
-        uploader = Uploader.SpotifyUploader()
+        uploader = Uploader.SpotifyUploader(True if args.verbose else False)
         uploader.upload(playlist)
-    user_input = input("Would you like to download the playlist locally? Press enter to accept ")
+    user_input = input("Would you like to download the playlist locally? Press enter to accept: ")
     if user_input == "":
         downloader = Downloader.Download.instance()
         for songname, artist in playlist:
@@ -36,5 +36,5 @@ def upload(playlist):
 if __name__ == "__main__":
     args = parse()
     playlist = generate(args)
-    upload(playlist)
+    upload(args, playlist)
     print("Terminating playlist creator!")

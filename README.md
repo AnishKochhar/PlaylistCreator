@@ -6,7 +6,33 @@ Uses OpenAI's ChatGPT chatbot to give song recommendations based on music taste
 
 ## Examples
 
-#### Example screenshots to be added
+##### The following command prompts the program for a playlist using 3 seed genres: `-g 3`;  5 songs I listened to in October: `-t 10`;  songs from artists similar to *King Krule*: `--artist="King Krule"`; and 5 songs from the year 1999: `-y 1999`. The program should then save the playlist to the file *sample_playlist.txt* `-o "playlists/sample_playlist.txt` 
+```
+python3 scripts/main.py -g 3 -t 10 --artist="King Krule" -y 1999 -o "playlists/sample_playlist.txt"
+```
+<img src="demo/Demo%201%20-%20Prompt.png" alt="Save to file prompt" width="700">
+<img src="demo/Demo%201%20-%20Playlist%20Creation.png" alt="Save to file result" width="700">
+
+Look inside playlists/sample_playlist.txt to see the result of this command
+
+##### Let's say you wanted to generate a different playlist in the mood 'chill', then add some specific songs you like, and have it uploaded to your Spotify account. 
+In this playlist there will be 4 seed genres: `--genre=4`;  world music will be included: `--world`;  the artist will be "Nujabes": `--artist="Nujabes`;  the mood with be "chill: `--mood="chill"`; and it should be interactive: `-i`.
+
+Run `python3 scripts/main.py --genre=3 --world --artist="Nujabes" --mood="chill" -i`
+
+<img src="demo/Demo%202%20-%20Prompt.png" alt="Interactive prompt" width="700">
+<img src="demo/Demo%202%20-%20Playlist%20Creation.png" alt="Interactive prompt" width="700">
+
+Here I can add arbitrary songs (e.g. *One More Time by Daft Punk*), and remove songs from the given playlist (e.g. *The Scientist by Coldplay*)
+
+<img src="demo/Demo%202%20-%20Uploading.png" alt="Interactive prompt" width="700">
+
+This playlist has now been uploaded to your Spotify page with the playlist name of today's current date
+<img src="demo/Demo%202%20-%20Spotify.png" alt="Interactive prompt" width="700">
+
+As listed below you can also tell the program: to be *verbose*, i.e. show raw results from Spotify and OpenAI apis
+
+And to *limit* the number of songs in the final playlist.
 
 ## Installation
 
@@ -61,7 +87,7 @@ Finally, you can choose to download the playlist in *.mp3* format to your machin
 | *-o \<filepath>* | *--output \<filepath>*| Save the generated playlist to specified output file |
 
 
-**See example screenshots for examples of arguments' effects**
+*See example screenshots for arguments guide*
 
 
 ### Dependencies

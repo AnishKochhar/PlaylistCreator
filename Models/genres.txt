@@ -1,23 +1,455 @@
 Abstract Beats
-Experimental beats, often with unconventional rhythms and structures.
+Innovative electronic beats and rhythms that push the boundaries of traditional music structures.
 
 Abstract Hip Hop
-Hip hop with experimental and avant-garde elements.
-
-Abstract Idm
-Intelligent Dance Music with abstract and experimental characteristics.
-
-Abstractro
-Abstract and atmospheric electronic music.
-
-Accordion
-Music featuring the accordion as a prominent instrument.
+Hip hop characterized by experimental and avant-garde production techniques, often featuring abstract lyricism.
 
 Acid House
-Electronic dance music with a signature "acid" sound, often characterized by a squelchy, resonant quality.
+A subgenre of house music known for its distinctive use of the Roland TB-303 synthesizer, creating a signature "acid" sound.
 
 Acid Jazz
-Jazz combined with elements of electronic music, often featuring funky grooves.
+Blending elements of jazz, funk, and electronic music, acid jazz is known for its improvisational and eclectic style.
 
-Acid Techno
-Techno music with the distinctive "acid" sound.
+Afrobeat
+A fusion of traditional African rhythms, highlife, and jazz, popularized by artists like Fela Kuti.
+
+Alternative Emo
+Emotional and introspective punk rock with a focus on personal expression and non-traditional song structures.
+
+Alternative Hip Hop
+A diverse and experimental approach to hip hop, often challenging mainstream conventions in both sound and lyrics.
+
+Alternative Metal
+A fusion of heavy metal and alternative rock, featuring a range of styles from melodic to aggressive.
+
+Alternative New Age
+A contemporary take on New Age music, exploring ambient and atmospheric soundscapes with alternative influences.
+
+Alternative Pop
+Pop music with an alternative twist, often featuring unconventional song structures and instrumentation.
+
+Alternative Pop Rock
+A blend of pop and rock elements, offering a melodic yet edgy sound.
+
+Alternative R&b
+Rhythm and blues with an alternative edge, often incorporating electronic and experimental elements.
+
+Alternative Rock
+A broad category encompassing diverse rock styles that deviate from mainstream conventions.
+
+Ambient Trance
+Trance music with ambient and atmospheric qualities, creating immersive and dreamy soundscapes.
+
+Art Rock
+A genre that emphasizes artistic and conceptual aspects, often featuring complex structures and eclectic instrumentation.
+
+Australian Alternative Rock
+Alternative rock from Australia, showcasing the unique sounds and influences of the region.
+
+Avant-garde Jazz
+Jazz that pushes the boundaries of traditional improvisation, often incorporating experimental and unconventional techniques.
+
+Beach Music
+Upbeat and lively music associated with beach and summer vibes, often featuring tropical and surf influences.
+
+Bebop
+A complex and improvisational form of jazz characterized by fast tempos and intricate melodies.
+
+Boogie-woogie
+A piano-based blues genre with a driving and infectious rhythm, popularized in the early 20th century.
+
+Bossa Nova
+Brazilian music with a distinct rhythm and style, known for its smooth and laid-back feel.
+
+Brazilian Hip Hop
+Hip hop from Brazil, blending local influences with the global hip hop culture.
+
+Brazilian Indie
+Independent and alternative music from Brazil, featuring a diverse range of styles.
+
+Breakcore
+An intense and high-energy genre that combines elements of breakbeat, jungle, and hardcore.
+
+Britpop
+A British music movement in the 1990s characterized by catchy melodies, British pride, and a revival of guitar-driven pop.
+
+Brooklyn Indie
+Independent music scene from Brooklyn, New York, known for its diversity and experimental nature.
+
+Chill-out
+Relaxing and ambient music, often used to create a calm and tranquil atmosphere.
+
+Chillwave
+A genre that blends elements of dream pop, synth-pop, and ambient music, creating a nostalgic and hazy sound.
+
+Cinematic Dubstep
+Dubstep with a cinematic and orchestral flair, often used in film soundtracks and video game music.
+
+Comedy Rock
+Rock music with humorous and comedic elements, exploring satirical and light-hearted themes.
+
+Cowboy Western
+Music associated with the American West, featuring elements of country, folk, and cowboy culture.
+
+Deep Melodic House
+House music with a deep and melodic sound, often characterized by lush synths and emotive melodies.
+
+Deep Uplifting Trance
+Trance music with uplifting and euphoric qualities, designed to evoke positive emotions.
+
+Downtempo
+Slow-tempo electronic music, often characterized by relaxed beats and atmospheric textures.
+
+Downtempo Trip Hop
+A fusion of downtempo electronic music and hip hop, known for its moody and atmospheric sound.
+
+Dream Pop
+A subgenre of alternative rock characterized by its ethereal and dreamy sound, often featuring lush melodies and reverberated guitars.
+
+Drum And Bass
+Fast-paced electronic music genre with prominent use of bass and intricate drum patterns.
+
+Dutch Hip Hop
+Hip hop from the Netherlands, reflecting the unique cultural and linguistic influences of the region.
+
+East Coast Hip Hop
+Hip hop originating from the East Coast of the United States, often associated with lyricism and jazz-influenced beats.
+
+Easy Listening
+Music that is soothing and easy on the ears, often characterized by simple melodies and relaxed arrangements.
+
+Electrofox
+A fusion of electronic music elements with a playful and foxy twist.
+
+Electronic
+A broad category encompassing various electronic music styles, from techno to ambient.
+
+Electronica
+A genre that explores a wide range of electronic sounds and styles, often characterized by experimental and eclectic production.
+
+Ethereal Wave
+A subgenre of dark wave with an atmospheric and ethereal sound, often associated with gothic and dreamy qualities.
+
+Experimental Psych
+Experimental psychedelic music that pushes the boundaries of traditional genre conventions.
+
+Experimental Rock
+Music that defies traditional rock structures, often incorporating avant-garde and unconventional elements.
+
+Folk Rock
+A genre that combines elements of folk and rock music, often featuring acoustic instrumentation and melodic storytelling.
+
+French Hip Hop
+Hip hop from France, blending local cultural influences with the global hip hop scene.
+
+Futurepop
+A subgenre of electronic dance music that combines elements of synth-pop and electronic body music.
+
+Garage Rock
+Raw and energetic rock music, often characterized by lo-fi production and a DIY aesthetic.
+
+German Techno
+Techno music from Germany, known for its influential role in the global electronic music scene.
+
+Glitch Beats
+Music that incorporates glitchy and distorted elements into electronic beats, creating a unique and experimental sound.
+
+Gothic Post-punk
+A dark and atmospheric subgenre of post-punk, often associated with gothic and melancholic themes.
+
+Gothic Rock
+Rock music with a dark and dramatic aesthetic, often featuring gothic and supernatural themes.
+
+Greek Hip Hop
+Hip hop from Greece, reflecting the cultural and linguistic influences of the region.
+
+Grunge
+A genre that emerged in the Pacific Northwest, characterized by a raw and distorted sound, often associated with the Seattle music scene.
+
+Hardcore
+An aggressive and fast-paced genre of punk rock, known for its intense live performances.
+
+Hardcore Breaks
+A subgenre of electronic dance music that combines elements of hardcore and breakbeat.
+
+Hardcore Hip Hop
+Hip hop characterized by aggressive and confrontational lyrics, often addressing social and
+
+Hardcore Punk
+Raw and rebellious punk rock with an aggressive and DIY ethos, often characterized by high-energy performances.
+
+Hardcore Techno
+An intense and fast-paced subgenre of techno, known for its hard beats and aggressive sound.
+
+Hardstyle
+Electronic dance music with a focus on hard kicks and intense melodies, popular in the rave and festival scenes.
+
+Hauntology
+A genre exploring nostalgic and eerie sounds, often drawing inspiration from past decades and retro-futurism.
+
+Hip Hop
+A cultural and musical movement that encompasses a variety of styles, primarily characterized by rhythmic speech and urban influences.
+
+Horrorcore
+Hip hop with horror-themed lyrics and dark, aggressive beats, often exploring macabre and gruesome subjects.
+
+House
+A genre of electronic dance music characterized by repetitive 4/4 beats, typically with a prominent kick drum and hi-hats.
+
+Indie Christmas
+Independent and alternative takes on Christmas music, often featuring unique arrangements and unconventional holiday themes.
+
+Indie Dream Pop
+Dream pop with an independent and alternative approach, featuring ethereal sounds and introspective lyrics.
+
+Indie Fuzzpop
+Indie pop with a fuzzy and distorted edge, blending catchy melodies with lo-fi production.
+
+Indie Pop
+Independent and alternative pop music, often characterized by catchy hooks and a DIY spirit.
+
+Indie Post-punk
+Post-punk with an independent and DIY ethos, exploring a range of experimental and unconventional sounds.
+
+Indie Psych-pop
+Indie pop with psychedelic influences, often featuring dreamy and atmospheric production.
+
+Indie R&b
+Rhythm and blues with an independent and alternative twist, exploring innovative sounds and production.
+
+Indie Rock
+Independent and alternative rock music, known for its diverse and non-mainstream approach.
+
+Indie Shoegaze
+Shoegaze with an independent and DIY aesthetic, characterized by dreamy, wall-of-sound production.
+
+Indie Singer-songwriter
+Independent singer-songwriters creating intimate and personal music outside of major label influences.
+
+Indietronica
+A genre that blends indie, electronic, and experimental elements, often featuring innovative production techniques.
+
+Intelligent Dance Music
+Electronic music that emphasizes intricate and cerebral compositions, often defying traditional dance music expectations.
+
+Irish Indie
+Independent and alternative music from Ireland, showcasing the country's unique musical perspectives.
+
+Italian Hip Hop
+Hip hop from Italy, blending local influences with global hip hop culture.
+
+Italian Punk
+Punk rock from Italy, known for its energetic and rebellious spirit, often addressing social and political issues.
+
+J-indie
+Independent and alternative music from Japan, reflecting a diverse range of styles and influences.
+
+J-rap
+Japanese rap music, combining local language and cultural elements with global hip hop influences.
+
+J-rock
+Rock music from Japan, known for its diverse styles and unique fusion of Western and Japanese musical elements.
+
+Japanese Jazztronica
+Jazztronica from Japan, blending jazz improvisation with electronic and experimental sounds.
+
+Japanese Psychedelic
+Psychedelic music from Japan, often featuring experimental and mind-expanding sounds.
+
+Jazz Funk
+A fusion of jazz and funk, known for its groovy rhythms and improvisational elements.
+
+Jazz Fusion
+A genre that combines jazz improvisation with elements of rock, funk, and electronic music.
+
+Jungle
+Fast-paced electronic music genre with roots in breakbeat and reggae, popular in the UK rave scene.
+
+Kiwi Rock
+Rock music from New Zealand, reflecting the country's unique cultural and musical landscape.
+
+La Indie
+Independent and alternative music from Latin America, showcasing diverse sounds and influences.
+
+Latin Electronica
+Electronic music with Latin American influences, blending traditional rhythms with modern production.
+
+Latin Hip Hop
+Hip hop with Latin American influences, often incorporating Spanish or Portuguese lyrics.
+
+Latin Jazz
+A fusion of jazz and Latin American rhythms, featuring lively percussion and improvisational elements.
+
+Lo-fi
+Low-fidelity music characterized by its raw and unpolished sound, often associated with DIY and independent production.
+
+Lounge
+Relaxed and sophisticated music, often with jazzy and ambient elements, suitable for a lounge or cocktail setting.
+
+Lovers Rock
+A romantic and soulful subgenre of reggae, known for its smooth melodies and intimate lyrics.
+
+Math Pop
+Pop music with complex and mathematically inspired structures, often featuring unconventional time signatures.
+
+Math Rock
+Rock music characterized by complex and intricate rhythms, unconventional time signatures, and experimental song structures.
+
+Melancholia
+Music that evokes a sense of melancholy and introspection, often featuring moody and emotional compositions.
+
+Melodic Breakbeat
+Breakbeat music with melodic and harmonic elements, creating a dynamic and uplifting sound.
+
+Metalcore
+A fusion of metal and hardcore punk, known for its heavy guitar riffs, breakdowns, and screamed vocals.
+
+Metropopolis
+A genre that explores the sounds and themes of urban life, often characterized by electronic and futuristic elements.
+
+Microhouse
+A subgenre of house music with minimalistic and microsound aesthetics, focusing on subtlety and intricacy.
+
+Motown
+A style of soul and R&B music that originated from the Motown record label, known for its catchy melodies and polished production.
+
+Movie Tunes
+Music composed for and inspired by movies, ranging from orchestral scores to popular songs featured in films.
+
+New Wave
+A genre that emerged in the late 1970s, blending punk rock with electronic and pop elements, known for its eclectic and innovative sound.
+
+Old School Hip Hop
+Hip hop from the genre's early days, characterized by simple beats and rhymes, and often nostalgic in tone.
+
+Operatic Pop
+Pop music with operatic influences, often featuring powerful vocals and dramatic arrangements.
+
+Poetry
+Musical compositions that emphasize spoken word poetry, exploring the fusion of language and music.
+
+Pop
+A broad category encompassing popular music characterized by catchy melodies, relatable lyrics, and broad appeal.
+
+Pop Rock
+A fusion of pop and rock elements, often featuring melodic hooks and guitar-driven arrangements.
+
+Portland Indie
+Independent music scene from Portland, Oregon, known for its eclectic and experimental nature.
+
+Portuguese Pop
+Pop music from Portugal, showcasing the country's unique musical perspectives.
+
+Portuguese Rock
+Rock music from Portugal, reflecting the country's cultural and social influences.
+
+Progressive House
+House music that emphasizes progressive and evolving structures, often featuring intricate melodies and build-ups.
+
+Progressive Rock
+A genre characterized by complex compositions, instrumental virtuosity, and a focus on artistic expression.
+
+Progressive Trance
+Trance music with progressive and evolving structures, often featuring melodic and atmospheric elements.
+
+Psychedelic Rock
+Rock music characterized by psychedelic and mind-expanding sounds, often featuring experimental and improvisational elements.
+
+Psychedelic Trance
+Trance music with psychedelic and trippy qualities, designed to induce altered states of consciousness.
+
+R&b
+Rhythm and blues, a genre that originated in African American communities, often featuring soulful vocals and emotional themes.
+
+Rock
+A broad and diverse genre encompassing a wide range of styles, from classic rock to alternative and beyond.
+
+Samba
+Brazilian music with African roots, characterized by lively rhythms and danceable beats.
+
+Scottish Rock
+Rock music from Scotland, reflecting the country's unique cultural and musical landscape.
+
+Sheffield Indie
+Independent music scene from Sheffield, England, known for its diverse and influential contributions to the indie music landscape.
+
+Shimmer Psych
+Psychedelic music with a shimmering and dreamy quality, often characterized by lush and atmospheric production.
+
+Shoegaze
+A genre characterized by its use of heavy reverb, delay, and other effects, creating a wall of sound that envelops the listener.
+
+Ska
+Upbeat and energetic music genre with roots in Jamaican and Caribbean styles, featuring offbeat rhythms and brass instruments.
+
+Skate Punk
+High-energy punk rock with fast tempos and skateboarding culture influences, known for its raw and rebellious sound.
+
+Sleaze Rock
+Rock music with a gritty and provocative edge, often associated with glam and hard rock aesthetics.
+
+Slow Core
+A subgenre of indie rock characterized by slow tempos, minimalist arrangements, and introspective lyrics.
+
+Smooth Jazz
+A genre that blends jazz improvisation with a polished and commercial sound, often featuring easy-listening melodies.
+
+Soft Rock
+Mellow and melodic rock music with a smooth and easygoing feel, often characterized by acoustic instrumentation.
+
+Soul Blues
+A fusion of soul and blues music, known for its emotive vocals, expressive instrumentation, and deep lyrical themes.
+
+Soul Jazz
+Jazz music that incorporates elements of soul, featuring funky rhythms, horn sections, and improvisational solos.
+
+Soundtrack
+Music composed for films, TV shows, video games, or theatrical performances, enhancing visual storytelling through sound.
+
+Spanish Hip Hop
+Hip hop from Spain, blending local cultural influences with global hip hop elements.
+
+Steampunk
+A genre and subculture that draws inspiration from Victorian-era aesthetics and steam-powered technology, influencing music with a mix of vintage and futuristic sounds.
+
+Stoner Rock
+Rock music characterized by heavy, fuzzed-out guitars, slow tempos, and lyrics often centered around counterculture themes.
+
+Street Punk
+Raw and energetic punk rock with a DIY ethos, often reflecting social and political discontent.
+
+Surf Music
+Instrumental rock music with influences from surf culture, featuring catchy melodies and reverb-drenched guitar sounds.
+
+Swamp Pop
+Louisiana-based music genre that blends rhythm and blues, country, and Cajun influences, known for its danceable and swampy sound.
+
+Swedish Alternative Rock
+Alternative rock music from Sweden, reflecting the country's unique musical landscape.
+
+Tech House
+A genre that blends elements of house and techno, often featuring innovative production techniques and rhythmic complexity.
+
+Terrorcore
+An intense and aggressive subgenre of hardcore techno, characterized by dark and menacing sounds.
+
+Trance
+Electronic dance music genre with a focus on repetitive beats, uplifting melodies, and a hypnotic atmosphere.
+
+Uk Garage
+A genre of electronic dance music that originated in the UK, characterized by syncopated beats and soulful vocal samples.
+
+Underground Rap
+Independent and non-mainstream rap music, often exploring diverse and socially conscious themes.
+
+Vaporwave
+A genre that deconstructs and manipulates existing music and visuals, creating a nostalgic and surreal aesthetic.
+
+Video Game Music
+Music composed for video games, ranging from chiptunes to orchestral scores, enhancing the gaming experience.
+
+Western Swing
+A genre that blends country, jazz, and swing music, popularized in the American Southwest during the 1930s and 1940s.
+
+World Fusion
+Music that combines elements from different global traditions, creating a fusion of diverse cultural influences.

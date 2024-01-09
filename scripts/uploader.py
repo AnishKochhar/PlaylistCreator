@@ -11,14 +11,14 @@ class SpotifyTrack():
 
 class SpotifyUploader():
 
-    def __init__(self):
+    def __init__(self, verbose):
         self.spotify_playlist = []
         load_dotenv()
         scope = 'playlist-modify-public playlist-modify-private user-library-read'
         self.spotify = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
+        self.verbose = verbose
 
     def createPlaylist(self, playlist):
-        print("Creating playlist of...")
         song_count = 0
         for name, artist in playlist:
             try:
@@ -26,8 +26,9 @@ class SpotifyUploader():
                 response = self.spotify.search(search_query)
                 item = response["tracks"]["items"][0] # get the first track
                 track = SpotifyTrack(item["uri"], item["name"], item["artists"][0])
-                print("{} : {}".format(name, artist))
-                print("{}. {} : {}".format(song_count, item["name"], item["artists"][0]["name"]))
+                if self.verbose: 
+                    print("Searching for {} : {}".format(name, artist))
+                    print("Spotify found {} : {}".format(song_count, item["name"], item["artists"][0]["name"]))
                 song_count += 1
                 self.spotify_playlist.append(track)
             except:

@@ -10,8 +10,8 @@ Uses OpenAI's ChatGPT chatbot to give song recommendations based on music taste
 ```
 python3 scripts/main.py -g 3 -t 10 --artist="King Krule" -y 1999 -o "playlists/sample_playlist.txt"
 ```
-<img src="demo/Demo%201%20-%20Prompt.png" alt="Save to file prompt" width="700">
-<img src="demo/Demo%201%20-%20Playlist%20Creation.png" alt="Save to file result" width="700">
+<img src="demo/Demo%201%20-%20Prompt.png" alt="Save to file prompt" >
+<img src="demo/Demo%201%20-%20Playlist%20Creation.png" alt="Save to file result" >
 
 Look inside playlists/sample_playlist.txt to see the result of this command
 
@@ -20,15 +20,15 @@ In this playlist there will be 4 seed genres: `--genre=4`;  world music will be 
 
 Run `python3 scripts/main.py --genre=3 --world --artist="Nujabes" --mood="chill" -i`
 
-<img src="demo/Demo%202%20-%20Prompt.png" alt="Interactive prompt" width="700">
-<img src="demo/Demo%202%20-%20Playlist%20Creation.png" alt="Interactive prompt" width="700">
+<img src="demo/Demo%202%20-%20Prompt.png" alt="Interactive prompt" >
+<img src="demo/Demo%202%20-%20Playlist%20Creation.png" alt="Interactive prompt">
 
 Here I can add arbitrary songs (e.g. *One More Time by Daft Punk*), and remove songs from the given playlist (e.g. *The Scientist by Coldplay*)
 
-<img src="demo/Demo%202%20-%20Uploading.png" alt="Interactive prompt" width="700">
+<img src="demo/Demo%202%20-%20Uploading.png" alt="Interactive prompt" >
 
 This playlist has now been uploaded to your Spotify page with the playlist name of today's current date
-<img src="demo/Demo%202%20-%20Spotify.png" alt="Interactive prompt" width="700">
+<img src="demo/Demo%202%20-%20Spotify.png" alt="Interactive prompt" >
 
 As listed below you can also tell the program: to be *verbose*, i.e. show raw results from Spotify and OpenAI apis
 

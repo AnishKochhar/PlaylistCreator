@@ -28,7 +28,7 @@ class SpotifyUploader():
                 track = SpotifyTrack(item["uri"], item["name"], item["artists"][0])
                 if self.verbose: 
                     print("Searching for {} : {}".format(name, artist))
-                    print("Spotify found {} : {}".format(song_count, item["name"], item["artists"][0]["name"]))
+                    print("Spotify found {} : {}\n".format(item["name"], item["artists"][0]["name"]))
                 song_count += 1
                 self.spotify_playlist.append(track)
             except:
